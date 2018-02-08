@@ -16,7 +16,20 @@ public class chromebrowser {
         driver.get("http://www.facebook.com");
         driver.findElement(By.id("email")).sendKeys("mahesh.borgude@gmail.com");
         driver.findElement(By.id("pass")).sendKeys("1312129");
-        driver.findElement(By.xpath("//*[@value='Log In']")).click();
+
+        //writing xpath is = //tagName[@attribute='value']
+        //driver.findElement(By.xpath("//*[@value='Log In']")).click();
+
+        //writing css is = tagName[attribute='value']
+        driver.findElement(By.cssSelector("input[value='Log In']")).click();
+
+        //one more way to write CSS is = tagName#id
+        //one more way to write CSS is = tagName.classname
+
+        //regular expression = //tagName[contains(@attribute,'value')] for xpath in another way.
+
+        //regular expression = tagName[attribute*='value'] for CSS
+
     }
 }
 

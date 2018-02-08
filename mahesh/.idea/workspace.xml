@@ -75,11 +75,33 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chromebrowser.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="chromebrowser.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/mahesh/chromebrowser.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+            <state relative-caret-position="323">
+              <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Salesforcee2e.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/mahesh/Salesforcee2e.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="google.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/mahesh/google.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,6 +141,8 @@
         <option value="$PROJECT_DIR$/Selenium/src/Selenium1.java" />
         <option value="$PROJECT_DIR$/src/com/mahesh/Selenium.java" />
         <option value="$PROJECT_DIR$/src/com/mahesh/chromebrowser.java" />
+        <option value="$PROJECT_DIR$/src/com/mahesh/Salesforcee2e.java" />
+        <option value="$PROJECT_DIR$/src/com/mahesh/google.java" />
       </list>
     </option>
   </component>
@@ -202,7 +226,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.chromebrowser">
+  <component name="RunManager" selected="Application.google">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" value="com.mahesh.Main" />
@@ -218,6 +242,25 @@
       <envs />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration name="Salesforcee2e" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.mahesh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.mahesh.Salesforcee2e" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="mahesh" />
+      <envs />
     </configuration>
     <configuration name="Selenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -236,25 +279,6 @@
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="mahesh" />
-      <envs />
-    </configuration>
-    <configuration name="Selenium1 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.newproject.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.newproject.Selenium1" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Selenium" />
       <envs />
     </configuration>
     <configuration name="chromebrowser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -276,14 +300,14 @@
       <module name="mahesh" />
       <envs />
     </configuration>
-    <configuration name="newclassselenium" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="google" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.newproject.*" />
+          <option name="PATTERN" value="com.mahesh.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.newproject.newclassselenium" />
+      <option name="MAIN_CLASS_NAME" value="com.mahesh.google" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" />
@@ -292,7 +316,7 @@
       <option name="ENABLE_SWING_INSPECTOR" value="false" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Selenium" />
+      <module name="mahesh" />
       <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -312,18 +336,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.newclassselenium" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Selenium1 (1)" />
-      <item index="3" class="java.lang.String" itemvalue="Application.Selenium" />
-      <item index="4" class="java.lang.String" itemvalue="Application.chromebrowser" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Selenium" />
+      <item index="2" class="java.lang.String" itemvalue="Application.chromebrowser" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Salesforcee2e" />
+      <item index="4" class="java.lang.String" itemvalue="Application.google" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.chromebrowser" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Selenium" />
-        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
-        <item index="3" class="java.lang.String" itemvalue="Application.Selenium1 (1)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.newclassselenium" />
+        <item index="0" class="java.lang.String" itemvalue="Application.google" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Salesforcee2e" />
+        <item index="2" class="java.lang.String" itemvalue="Application.chromebrowser" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Selenium" />
+        <item index="4" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -759,8 +783,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/mahesh/chromebrowser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="69" lean-forward="false" selection-start-line="16" selection-start-column="69" selection-end-line="16" selection-end-column="69" />
+        <state relative-caret-position="323">
+          <caret line="19" column="52" lean-forward="true" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mahesh/Salesforcee2e.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/mahesh/google.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
