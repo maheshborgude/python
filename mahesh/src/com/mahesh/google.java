@@ -21,5 +21,6 @@ public class google {
         //driver1.manage().timeouts().implicitlyWait(3000,TimeUnit.SECONDS);
         Thread.sleep(3000);
         driver1.findElement(By.xpath("//*[@id='tablist1-tab1']/following-sibling::li[1]")).click();
+        //driver1.findElement(By.xpath("//*[text0=' Selenium ']")).click();
     }
 }
